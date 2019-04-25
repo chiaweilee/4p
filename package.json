@@ -1,0 +1,18 @@
+{
+  "name": "4p",
+  "version": "3.0.0",
+  "description": "test for npm publish",
+  "bin": {
+    "4p": "bin/4p.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node test/do.js && node test/run.js",
+    "4p": "4p packages/my-plugin"
+  },
+  "author": "+v",
+  "license": "MIT"
+}
