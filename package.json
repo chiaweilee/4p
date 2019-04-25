@@ -1,7 +1,7 @@
 {
   "name": "4p",
   "version": "3.0.0",
-  "description": "test for npm publish",
+  "description": "Test your package in node_modules before publish.",
   "bin": {
     "4p": "bin/4p.js"
   },
